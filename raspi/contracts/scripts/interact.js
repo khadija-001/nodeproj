@@ -1,81 +1,31 @@
-
 const Web3 = require('web3');
+const contractAbi = require('./YourContractAbi.json'); // Load your contract ABI
 
-// Create a Web3 instance connected to the Hardhat local network
-const web3 = new Web3('http://localhost:8545');
+const web3 = new Web3(new Web3.providers.HttpProvider('https://polygon-mumbai.g.alchemy.com/v2/<your_key>'));
 
-// Replace with your actual contract ABI and address
-const contractABI = [
-  // ... ABI here ...
-];
+const contractAddress = '<your_contract_address>';
+const contract = new web3.eth.Contract(contractAbi, contractAddress);
 
-const contractAddress = '0x...'; // Replace with your contract address
+async function addStatus() {
+    const accounts = await web3.eth.getAccounts();
+    const sender = accounts[0];
 
-// Create a contract instance
-const contract = new web3.eth.Contract(contractABI, contractAddress);
+    // Replace the following values with actual data
+    const location = 'Some Location';
+    const temp = '65'; // Example temperature
+    const humidity = '50'; // Example humidity
+    const heatindex = '70'; // Example heat index
+    const wid = 1; // Worker ID
+    const pid = 1; // Product ID
+    const total_quantity = 100;
+    const flag = true;
 
-
-
-// Your private key
-const privateKey = '<account_private_key>';
-
-// Your account address
-const accountAddress = '<account_address>';
-
-// Create contract instance
-const contract = new web3.eth.Contract(abi, contractAddress);
-
-
-// Example function to interact with a contract function
-async function getTemperature() {
-  try {
-    // Call a contract function 
-    const result = await contract.methods.getTemperature().call();
-
-    console.log('Temperature:', result);
-  } catch (error) {
-    console.error('Error:', error);
-  }
+    try {
+        const result = await contract.methods.AddStatus(location, temp, humidity, heatindex, wid, pid, total_quantity, flag).send({ from: sender });
+        console.log('Status added:', result);
+    } catch (error) {
+        console.error('Error:', error);
+    }
 }
 
-// Call the example function
-getTemperature();
-
-
-
-const AddStatus = async (location, temp, humidity, heatindex, wid, pid, total_quantity, flag) => {
-    // Your implementation here
-};
-
-const AddData = async (temp, humidity, heatindex, pid) => {
-    // Your implementation here
-};
-
-
-const getWorkersList = async () => {
-    // Your implementation here
-};
-
-const getProductStatus = async (pid) => {
-    // Your implementation here
-};
-
-const getProductData = async (pid) => {
-    // Your implementation here
-};
-
-const getProducts = async () => {
-    // Your implementation here
-};
-
-module.exports = {
-    setWorker,
-    AddProduct,
-    AddStatus,
-    AddData,
-    getProductsList,
-    getWorkersList,
-    getProductStatus,
-    getProductData,
-    getProducts
-};
+addStatus();
