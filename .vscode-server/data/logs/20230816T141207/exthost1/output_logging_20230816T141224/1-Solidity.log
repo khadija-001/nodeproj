@@ -1,0 +1,22 @@
+[Info  - 2:12:25 PM] Solidity by Nomic Foundation Starting ...
+[Info  - 2:12:25 PM] env: production
+[Info  - 2:12:27 PM] Client starting
+[Info  - 2:12:32 PM] Language server starting
+[Info  - 2:12:32 PM]   Release: hardhat-solidity@0.7.3
+[Info  - 2:12:32 PM]   Environment: production
+[Info  - 2:12:32 PM]   Telemetry Enabled: true
+[Info  - 2:12:32 PM]   Telemetry Tracking Id: 2009997415...
+[Info  - 2:12:32 PM]   Workspace Folders:
+[Info  - 2:12:32 PM]     contracts (file:///root/raspi/contracts)
+[Info  - 2:12:32 PM] Fetching latest solidity versions
+[Info  - 2:12:33 PM] Language server ready
+[Info  - 2:12:33 PM] [indexing] Found projects:
+[Info  - 2:12:33 PM] [indexing] -  Type: Hardhat
+[Info  - 2:12:33 PM] [indexing]    Base path: /root/raspi/contracts/scripts/test
+[Info  - 2:12:33 PM] [indexing]    Config file: /root/raspi/contracts/scripts/test/hardhat.config.js
+[Info  - 2:12:33 PM] [indexing] Initializing /root/raspi/contracts/scripts/test/hardhat.config.js
+[Info  - 2:13:22 PM] [test] Local HRE loaded
+[Info  - 2:13:22 PM] [indexing] Done /root/raspi/contracts/scripts/test/hardhat.config.js
+[Info  - 2:13:22 PM] [indexing] Scanning workspace folders for sol files
+[Info  - 2:13:22 PM] [indexing] Scan complete, 4 sol files found
+[Info  - 2:13:23 PM] [indexing] Analyzing 4 solidity files

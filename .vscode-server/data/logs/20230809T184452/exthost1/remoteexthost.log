@@ -1,0 +1,31 @@
+2023-08-09 18:45:03.389 [info] Extension host with pid 4392 started
+2023-08-09 18:45:03.873 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-09 18:45:03.985 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/21828e51076f5b39882e5f51a118c4f9/vscode.lock': Lock acquired.
+2023-08-09 18:45:04.079 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-09 18:45:04.080 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-09 18:45:05.358 [info] Eager extensions activated
+2023-08-09 18:45:05.359 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-09 18:45:05.366 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-09 18:45:08.897 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-09 18:52:49.068 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-08-09 19:00:12.770 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-08-09 19:25:14.439 [info] ExtensionService#_doActivateExtension NomicFoundation.hardhat-solidity, startup: false, activationEvent: 'onLanguage:solidity'
+2023-08-09 19:25:20.002 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-09 19:25:20.518 [error] Error: Language client is not ready yet
+	at LanguageClient2.sendNotification (/root/.vscode-server/extensions/nomicfoundation.hardhat-solidity-0.7.3/out/extension.js:56:72901)
+	at notifyTelemetryChanged (/root/.vscode-server/extensions/nomicfoundation.hardhat-solidity-0.7.3/out/extension.js:62:9930)
+	at r.value (/root/.vscode-server/extensions/nomicfoundation.hardhat-solidity-0.7.3/out/extension.js:62:10195)
+	at f.w (/root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at f.x (/root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+	at fire (/root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+	at i.$acceptConfigurationChanged (/root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:116:24244)
+	at /root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:116:23797
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-08-10 01:35:02.991 [info] Extension host terminating: received terminate message from renderer
+2023-08-10 01:35:03.486 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/21828e51076f5b39882e5f51a118c4f9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-08-10 01:35:25.545 [error] Error: Stopping the server timed out
+	at /root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:627898
+	at async Object.e.deactivate (/root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1057167)
+	at async Promise.all (index 6)
+	at async r.S (/root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/workbench/api/node/extensionHostProcess.js:117:7595)
+2023-08-10 01:35:26.361 [info] Extension host with pid 4392 exiting with code 0

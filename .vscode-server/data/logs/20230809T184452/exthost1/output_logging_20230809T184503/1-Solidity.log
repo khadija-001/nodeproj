@@ -1,0 +1,30 @@
+[Info  - 7:25:14 PM] Solidity by Nomic Foundation Starting ...
+[Info  - 7:25:15 PM] env: production
+[Info  - 7:25:15 PM] Client starting
+[Info  - 7:25:18 PM] Language server starting
+[Info  - 7:25:18 PM]   Release: hardhat-solidity@0.7.3
+[Info  - 7:25:18 PM]   Environment: production
+[Info  - 7:25:18 PM]   Telemetry Enabled: false
+[Info  - 7:25:18 PM]   Telemetry Tracking Id: 2009997415...
+[Info  - 7:25:18 PM]   Workspace Folders:
+[Info  - 7:25:18 PM]     contracts (file:///root/raspi/contracts)
+[Info  - 7:25:18 PM] Fetching latest solidity versions
+[Info  - 7:25:19 PM] Language server ready
+[Info  - 7:25:19 PM] [indexing] Found projects:
+[Info  - 7:25:19 PM] [indexing] -  Type: Hardhat
+[Info  - 7:25:19 PM] [indexing]    Base path: /root/raspi/contracts/scripts/test
+[Info  - 7:25:19 PM] [indexing]    Config file: /root/raspi/contracts/scripts/test/hardhat.config.js
+[Info  - 7:25:19 PM] [indexing] Initializing /root/raspi/contracts/scripts/test/hardhat.config.js
+[Info  - 7:25:27 PM] [test] Local HRE loaded
+[Info  - 7:25:27 PM] [indexing] Done /root/raspi/contracts/scripts/test/hardhat.config.js
+[Info  - 7:25:27 PM] [indexing] Scanning workspace folders for sol files
+[Info  - 7:25:27 PM] [indexing] Scan complete, 3 sol files found
+[Info  - 7:25:27 PM] [indexing] Analyzing 3 solidity files
+[Info  - 8:25:29 PM] [test] Config file changed. Restarting worker process.
+[Info  - 8:25:29 PM] [test] Child process exited: null
+[Info  - 8:25:29 PM] [test] Config file changed. Restarting worker process.
+[Info  - 8:25:29 PM] [test] Child process exited: null
+[Info  - 8:25:32 PM] [test] Local HRE loaded
+[Info  - 8:29:11 PM] [test] Config file changed. Restarting worker process.
+[Info  - 8:29:11 PM] [test] Child process exited: null
+[Info  - 8:29:13 PM] [test] Local HRE loaded

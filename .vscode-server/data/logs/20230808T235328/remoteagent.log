@@ -1,0 +1,32 @@
+2023-08-08 23:53:28.967 [info] 
+
+
+
+
+2023-08-08 23:53:28.968 [info] Extension host agent started.
+2023-08-08 23:53:29.006 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-08-08 23:53:29.520 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-08-08 23:53:30.450 [info] [127.0.0.1][0daa956e][ManagementConnection] New connection established.
+2023-08-08 23:53:32.201 [info] [127.0.0.1][6021da86][ExtensionHostConnection] New connection established.
+2023-08-08 23:53:40.499 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-08-08 23:53:40.503 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-08-08 23:53:40.509 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-08-08 23:53:40.536 [info] [127.0.0.1][6021da86][ExtensionHostConnection] <92> Launched Extension Host Process.
+2023-08-08 23:54:25.625 [info] [127.0.0.1][3fd0cafa][ManagementConnection] New connection established.
+2023-08-08 23:54:27.736 [info] [127.0.0.1][3fd0cafa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-08 23:54:27.748 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-09 00:58:01.411 [info] [127.0.0.1][0daa956e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-09 00:58:02.550 [info] [127.0.0.1][6021da86][ExtensionHostConnection] <92> Extension Host Process exited with code: 0, signal: null.
+2023-08-09 00:58:02.834 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
